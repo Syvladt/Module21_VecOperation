@@ -1,5 +1,4 @@
 #include <iostream>
-#include <conio.h>
 #include <math.h>
 
 struct vector
@@ -108,8 +107,7 @@ int main()
 		}
 		else
 			std::cout << "Unknown action. Repeat choice\n";
-		std::cout << "Press any key ...";
-		while (!_kbhit());
+		system("pause");
 		std::cout << "\x1B[2J\x1B[H";
 	}
 }
